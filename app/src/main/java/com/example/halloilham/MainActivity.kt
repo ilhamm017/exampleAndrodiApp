@@ -55,7 +55,7 @@ fun Greeting(name: String, pesan: String, modifier: Modifier = Modifier) {
                 modifier = modifier
             )
             Text(
-                text = "Ini $pesan", // menampilkan Hello $pesan
+                text = "Ini $pesan", // menampilkan Hello $pesan .
                 modifier = modifier
             )
         }
